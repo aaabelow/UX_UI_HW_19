@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
   }
@@ -9,9 +13,10 @@ body {
     float: right;
     color: white;
   }
-  header li {
+  ul a {
     display: inline-block;
     padding: 10px;
+    color: white;
   }
   header p {
     display: inline-block;
@@ -43,7 +48,7 @@ body {
     list-style: none;
     padding-left: 5px;
   }
-  footer li {
+  footer a {
     display: inline-block;
     padding: 30px;
   }
